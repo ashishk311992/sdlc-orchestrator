@@ -2,6 +2,7 @@
 from __future__ import annotations
 from typing import Any
 from sqlalchemy import select
+from app.dashboard.events_bus import publish_event
 from app.db import session_scope
 from app.models import Run, RunStatus, RunEvent
 
@@ -27,6 +28,11 @@ def create_or_get_run(*, issue_id: str, issue_identifier: str, issue_updated_at:
         s.flush()
         s.refresh(run)
         s.expunge(run)
+        publish_event(run.id, "run.created", {
+            "issue_identifier": run.issue_identifier,
+            "title": run.title,
+            "status": run.status.value,
+        })
         return run, True
 
 
@@ -45,6 +51,7 @@ def update_run(run_id: str, **fields: Any) -> None:
             raise LookupError(run_id)
         for k, v in fields.items():
             setattr(run, k, v)
+    publish_event(run_id, "run.updated", {k: (v.value if hasattr(v, "value") else v) for k, v in fields.items()})
 
 
 def record_event(run_id: str, stage: str, message: str, *, level: str = "info",
@@ -52,3 +59,6 @@ def record_event(run_id: str, stage: str, message: str, *, level: str = "info",
     with session_scope() as s:
         s.add(RunEvent(run_id=run_id, stage=stage, message=message,
                        level=level, payload=payload or {}))
+    publish_event(run_id, "run.event", {
+        "stage": stage, "level": level, "message": message, "payload": payload or {},
+    })
