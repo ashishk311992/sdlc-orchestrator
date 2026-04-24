@@ -66,8 +66,10 @@ def _is_relevant(payload: dict, settings) -> bool:
         team = data.get("team") or {}
         if team.get("id") != settings.linear_team_id:
             return False
-    labels = (data.get("labels") or {}).get("nodes") or data.get("labels") or []
-    label_names = {l.get("name") for l in labels if isinstance(l, dict)}
+    labels_raw = data.get("labels") or []
+    if isinstance(labels_raw, dict):
+        labels_raw = labels_raw.get("nodes") or []
+    label_names = {l.get("name") for l in labels_raw if isinstance(l, dict)}
     if settings.linear_trigger_label and settings.linear_trigger_label not in label_names:
         return False
     return True
