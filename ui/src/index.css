@@ -3,4 +3,23 @@
 @tailwind utilities;
 
 html, body, #root { height: 100%; }
-body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+body {
+	margin: 0;
+	background:
+		radial-gradient(circle at top left, rgba(56, 189, 248, 0.08), transparent 28%),
+		radial-gradient(circle at top right, rgba(217, 70, 239, 0.08), transparent 24%),
+		linear-gradient(180deg, #08101a 0%, #0b0f17 38%, #0b0f17 100%);
+	font-family: "Satoshi", "Avenir Next", ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+	color: #f8fafc;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+	font: inherit;
+}
