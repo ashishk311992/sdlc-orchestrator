@@ -1,0 +1,198 @@
+{
+  "app": "porter-clone-prototype",
+  "exportedAt": "2026-04-28T07:57:25.561Z",
+  "author": "Nikhil ",
+  "total": 19,
+  "comments": [
+    {
+      "route": "/porter/customer?s=business-switch",
+      "screen": "Switch to business",
+      "author": "Nikhil ",
+      "severity": "issue",
+      "body": "Credit line, Bulk Booking not required.",
+      "id": "13efd493-b10d-4f76-a932-dcc6e9a2cdf3",
+      "createdAt": 1777298103792,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=home",
+      "screen": "Home",
+      "author": "Nikhil ",
+      "severity": "issue",
+      "body": "Packers & movers, Intercity to be disabled RN will be enabled when we start.\n\nVehicle icon and category will be mentioned.",
+      "id": "fcfdbdf0-167c-4241-8363-b6054aa046b7",
+      "createdAt": 1777298267754,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=home",
+      "screen": "Home",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Offers section can be during checkout instead we can use that space for advertising others brand for some extra revenue.",
+      "id": "e69c676a-0449-4b43-8ddc-52f20c953533",
+      "createdAt": 1777298308790,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=book-pickup",
+      "screen": "Booking · pickup & drops",
+      "author": "Nikhil ",
+      "severity": "issue",
+      "body": "Pick up details to be mentioned (Check customer app \nvideo)\n\nDrop details to be mentioned(Check customer app video)",
+      "id": "560be658-bfd0-46a5-9637-e8c545c016d7",
+      "createdAt": 1777298398521,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=book-pickup",
+      "screen": "Booking · pickup & drops",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "We have to add a additional tab were we can ask the customer's to upload invoice & image of the consignment so that the receiver can know what is being sent and from where.\n\nThe rider will take e signature of the receiver on the same invoice like courier or amazon guys take will delivering the goods and it's auto captured on the invoice being availble for the sender to download anytime.",
+      "id": "6c35f8e9-c7b1-471c-8f26-137de511ac95",
+      "createdAt": 1777298558438,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=book-vehicle",
+      "screen": "Booking · vehicle class",
+      "author": "Nikhil ",
+      "severity": "nit",
+      "body": "Vehicle icons and types can be discussed.\n\nWe'll have both EV's and ICE vehicles on-boarded.",
+      "id": "12951a6f-ab41-4e7d-8de6-3883adf782d0",
+      "createdAt": 1777298624919,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=book-fare",
+      "screen": "Booking · fare & payment",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "This whole page can be converted into a page were the whole trip, vehicle type and fare can be reviewed providing other details like restricted goods etc (sample page shared in customer app video)\n\nIn fare details only the details mentioned below showed be shown.\n\nTrip fare\nNet fare\nAmount payable.",
+      "id": "c0552e0d-ef81-46fd-9ce2-73ce7792499d",
+      "createdAt": 1777298962035,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=book-fare",
+      "screen": "Booking · fare & payment",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Offers & discount tab can be here with coins redeeming facility.",
+      "id": "1a2f36a3-114d-42ba-9546-cce4b101f199",
+      "createdAt": 1777299003317,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=profile",
+      "screen": "Profile & settings",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Tabs to added.\n\nCo2 saving\nRewards & appreciations.",
+      "id": "6bb7123f-1899-450d-93e0-b45c4555a522",
+      "createdAt": 1777299080149,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=splash",
+      "screen": "Splash / Onboarding",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "All permissions should be asked to enabled here(Can mention them on further stage- basics tho)",
+      "id": "e9d582eb-4598-469a-954d-cfbcd21dfd87",
+      "createdAt": 1777362414761,
+      "resolved": false
+    },
+    {
+      "route": "/porter/customer?s=trip-done",
+      "screen": "Trip complete + rate",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "With download receipt another option as specified earlier to be enabled which download POD.",
+      "id": "c91987eb-8d2c-4f31-a339-45e14a66532a",
+      "createdAt": 1777362528608,
+      "resolved": false
+    },
+    {
+      "route": "/porter/driver?s=onboarding",
+      "screen": "Driver KYC stepper",
+      "author": "Nikhil ",
+      "severity": "nit",
+      "body": "Driver/rider app should be similar to that off the video shared (the flow).",
+      "id": "0efaedb6-36d8-4c79-b759-75880aa33390",
+      "createdAt": 1777362734927,
+      "resolved": false
+    },
+    {
+      "route": "/porter/driver?s=store",
+      "screen": "Partner store",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Liked the idea of this particular feature just need to discuss on the workings for this.",
+      "id": "18856a7e-10af-4216-a28e-4c4b4d21ef44",
+      "createdAt": 1777362784392,
+      "resolved": false
+    },
+    {
+      "route": "/porter/driver?s=fuel",
+      "screen": "Fuel card",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Works, need to discuss on the workings.",
+      "id": "9757c70f-8ae9-423a-aed1-c65dec78e733",
+      "createdAt": 1777362802575,
+      "resolved": false
+    },
+    {
+      "route": "/porter/driver?s=docs",
+      "screen": "Document renewals",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Works.",
+      "id": "be7cfded-524d-4c51-a305-f8ed8df123a9",
+      "createdAt": 1777362813973,
+      "resolved": false
+    },
+    {
+      "route": "/porter/driver?s=insurance",
+      "screen": "Insurance & benefits",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Works.",
+      "id": "df7db5e3-73a2-403c-af5a-2c0361ad5573",
+      "createdAt": 1777362823057,
+      "resolved": false
+    },
+    {
+      "route": "/porter/fleet?s=overview",
+      "screen": "Fleet overview",
+      "author": "Nikhil ",
+      "severity": "idea",
+      "body": "Perfect for the fleet owners, sending you the video of the porter fleet owner app we can fine tune this.",
+      "id": "1be8edc2-5c50-408a-abbb-894e980c3a8b",
+      "createdAt": 1777362918593,
+      "resolved": false
+    },
+    {
+      "route": "/porter/enterprise",
+      "screen": "/porter/enterprise",
+      "author": "Nikhil ",
+      "severity": "nit",
+      "body": "This won't be required for us.",
+      "id": "53192c90-e12e-4a0f-ab79-cd23326aaa13",
+      "createdAt": 1777362951242,
+      "resolved": false
+    },
+    {
+      "route": "/porter/admin",
+      "screen": "/porter/admin",
+      "author": "Nikhil ",
+      "severity": "nit",
+      "body": "Is this the main admin panel from where we'll create fleet owner's account and also approve & verify the new onboarding of the driver?",
+      "id": "4b1f9c99-0715-495e-b78c-59c04c839ff9",
+      "createdAt": 1777363030908,
+      "resolved": false
+    }
+  ]
+}
